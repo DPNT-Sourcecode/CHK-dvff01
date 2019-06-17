@@ -21,4 +21,3 @@ public class SumSolutionTest {
         assertThat(sum.compute(3, 1), equalTo(4));
     }
 }
-
