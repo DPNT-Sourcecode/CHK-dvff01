@@ -5,7 +5,7 @@ import befaster.runner.SolutionNotImplementedException;
 public class HelloSolution {
 
 	public String hello(String friendName) {
-		if (friendName.equals ("Craftsman") || friendName.equals ("Mr. X")){
+		if (friendName.equals("Craftsman") || friendName.equals("Mr. X")) {
 			friendName = "Hello, World!";
 		}
 		return friendName;
@@ -20,6 +20,7 @@ public class HelloSolution {
 
 	}
 }
+
 
 
 
