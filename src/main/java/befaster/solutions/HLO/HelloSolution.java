@@ -6,7 +6,7 @@ public class HelloSolution {
 
 	public String hello(String friendName) {
 		if (friendName.equals ("Craftsman") || friendName.equals ("Mr. X")){
-			friendName = "Hello, World";
+			friendName = "Hello, World!";
 		}
 		return friendName;
 	}
@@ -20,5 +20,6 @@ public class HelloSolution {
 
 	}
 }
+
 
 
