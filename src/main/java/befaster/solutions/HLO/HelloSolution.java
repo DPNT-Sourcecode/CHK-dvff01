@@ -10,10 +10,11 @@ public class HelloSolution {
 
 	public static void main(String args[]) {
 
-		String name = "Hello, World!";
+		String message = "Hello, World!";
 
 		HelloSolution helloSolution = new HelloSolution();
-		helloSolution.hello(name);
+		helloSolution.hello(message);
 
 	}
 }
+
