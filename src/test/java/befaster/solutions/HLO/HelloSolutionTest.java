@@ -11,8 +11,11 @@ public class HelloSolutionTest {
 	@Test
     public void helloSolutionStringTest() {
 		HelloSolution helloSolution = new HelloSolution();
-		String name="Hello World";
-        assertThat(helloSolution.hello(name), equalTo("Hello World"));
+		String name="Craftsman";
+		String name2="Mr. X";
+        assertThat(helloSolution.hello(name), equalTo("Craftsman"));
+        assertThat(helloSolution.hello(name2), equalTo("Mr. X"));
+
     }
 	
 
