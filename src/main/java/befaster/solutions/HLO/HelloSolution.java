@@ -10,10 +10,10 @@ public class HelloSolution {
 
 	public static void main(String args[]) {
 
-		String name = "Hello World";
+		String name = "Hello, World!";
 
 		HelloSolution helloSolution = new HelloSolution();
-		System.out.println(helloSolution.hello(name));
+		helloSolution.hello(name);
 
 	}
 }
