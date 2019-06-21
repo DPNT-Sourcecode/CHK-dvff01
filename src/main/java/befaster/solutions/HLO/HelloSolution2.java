@@ -15,6 +15,14 @@ public class HelloSolution2 {
 
 	}
 
+	public static void main(String[] args) {
+
+		HelloSolution2 hello = new HelloSolution2();
+		System.out.println(hello.hello("John"));
+
+	}
+
 }
+
 
 
